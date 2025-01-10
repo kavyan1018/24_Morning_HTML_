@@ -1,0 +1,5 @@
+types of css 3types 
+
+1. Inline CSS   --> <h1 style="color:blue;">This is a heading</h1>
+2. Internal CSS --> <style> h1 {color: red;} </style>
+3. External CSS --> <link rel="stylesheet" type="text/css" href="mystyle.css">
