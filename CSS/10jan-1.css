@@ -1,0 +1,11 @@
+/* External CSS */
+/* we need to link this file with HTML File */
+
+a{
+    background-color: chocolate;
+}
+
+p{
+    color: greenyellow;
+    background-color: black;
+}
