@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* Ignore the above part */
+
+    /* vw => viewport width
+    and 
+    vh => viewport height
+    */
+
+    img{
+        /* width: 1600px; */
+
+        /* vw and vh */
+
+        /* width: 100vw; */
+        /* width: 50vw; */
+        /* width: 120vw; */
+
+        /* height: 600px; */
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    .inner{
+        background-color: red;
+        height: 350px;
+        width: 90%;
+    }
+
+    .inner-most{
+        background-color: black;
+        /* background-color: rgb(155, 213, 78); */
+        /* background-color: #9BD54E; */
+        /* background-color: rgba(155, 213, 78, 0.5); */
+        /* opacity: max - 1; */
+        /* opacity: min - 0; */
+
+        height: 200px;
+        width: 80%; 
+    }
+
+    a{
+        color: black;
+        background-color: white;
+        font-size: 1.5rem;
+        /* width: 100%; */
+        /* width: 100vw; */
+        /* width: 20em; */
+
+        /* height or width don't applay on inline emelents except button & img */
+    }
+
+</style>
+<body>
+        <!-- <img src="./image copy.png" alt=""> -->
+        <div class="outer">
+            <br><br><br>
+            <div class="inner">
+                <br><br><br>
+                <div class="inner-most">
+                    <br><br><br><br>
+                    <a href="#">Click me</a>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
