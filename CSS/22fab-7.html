@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-align: center;
+        width: 200px;
+        display: block;
+    }
+
+    h1::before {
+        content: "I";
+        display: block;
+        background-color: orange;
+    }
+
+    h1::after {
+        content: "India";
+        display: block;
+        background-color: green;
+    }
+
+    
+</style>
+
+<body>
+
+    <!-- 
+        h1:hover
+
+        after  ==> after the text
+        and 
+        before ==> before the text 
+
+        h1::after
+
+        3 layers -> -1 0 1
+
+    -->
+
+    <!-- <div id="first">I</div> -->
+    <h1 id="second">Love</h1>
+    <!-- <div id="third">India</div> -->
+
+</body>
+
+</html>
