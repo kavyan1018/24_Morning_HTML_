@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: coral;
+        
+        -webkit-animation: squreToCircle 2s 1s infinite alternate;
+    }
+
+    @keyframes squreToCircle{
+
+        0%{
+            border-radius: 0 0 0 0;
+            background-color: coral;
+            transform: rotate(0deg);
+        }
+
+        25%{
+            border-radius: 50% 0 0 0;
+            background-color: coral;
+            transform: rotate(45deg);
+        }
+
+        50%{
+            border-radius: 50% 50% 0 0;
+            background-color: coral;
+            transform: rotate(90deg);
+        }
+
+        75%{
+            border-radius: 50% 50% 50% 0;
+            background-color: coral;
+            transform: rotate(135deg);
+        }
+
+        100%{
+            border-radius: 50% 50% 50% 50%;
+            background-color: coral;
+            transform: rotate(180deg);
+        }
+
+    }
+
+</style>
+
+<body>
+    
+    <div></div>
+
+</body>
+</html>
